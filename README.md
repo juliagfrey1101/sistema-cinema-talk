@@ -1,4 +1,4 @@
-# 📝 Sistema de Visualização de filmes e séries
+# 📝 Sistema de Visualização de séries
 Este é um projeto desenvolvido para praticar a integração entre PHP e array associativo.
 
 ## 🚀 Tecnologias
