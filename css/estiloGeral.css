@@ -1,0 +1,216 @@
+body
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+p{ color: white;  font-size: 14px;}
+
+header
+{
+    border-bottom: 2px solid rgb(253, 108, 127);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.ConteudoHeader
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px;
+}
+
+header  img
+{
+    width: 130px;
+}
+
+.buscaHeader
+{
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+#txtPesquisar
+{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid rgb(253, 108, 127);
+    width: 305px;
+}
+
+.btnBusca
+{
+    padding: 10px;
+    background-color: rgb(253, 108, 127);
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+/* ---------------------------- SECTION */
+
+.gradeSeries
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    justify-content: center;
+    width: 100%;
+}
+
+.box
+{
+    width: 32%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 0px #9b9b9b;
+}
+
+.box img
+{
+    width: 100%;
+}
+
+.caixaLegenda
+{
+    background-color: rgb(253, 108, 127);
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 5px 8px 10px;
+    width: 100%;
+}
+
+.caixaLegenda p 
+{
+    margin: 0px 0px 4px 0px;
+}
+
+.nomeSerie
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#largura
+{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* ------------------------- PAGINA 2 */
+
+.areaTemporada
+{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 25px;
+    justify-content: center;
+}
+
+
+.blocoSerie
+{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 0px #9b9b9b;
+    margin-bottom: 20px;
+}
+
+.blocoSerie img
+{
+    width: 70%;
+}
+
+.informacaoSerie
+{
+    width: 30%;
+    background-color: rgb(253, 108, 127);
+    text-align: center;
+}
+
+.informacaoSerie h1
+{
+    color: white;
+    margin-bottom: 70px; /*ta certo?????????????????? como alinhar p nos dois eixos??? */
+}
+
+.linha
+{
+    display: flex;
+}
+
+.NavegarSerie
+{
+    background-color: rgb(219, 136, 103);
+    width: 100%;
+    padding: 15px 0px 15px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.NavegarSerie a
+{
+    border-right: 1px solid white;
+    /* width: 65px; */
+    text-decoration: none;
+}
+
+.NavegarSerie p
+{
+    margin: 0px 10px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#cor { color: black;}
+
+select
+{
+    outline: 1px solid #ffffff;
+    border: 1px solid #a5a5a5;
+    border-radius: 6px;
+}
+
+
+.blocoEpisodio p
+{
+    color: black;
+    margin: 5px 10px 5px 0px;
+}
+
+h3
+{
+    margin: 0px;
+}
+
+
+.blocoEpisodio
+{
+    width: 49%;
+}
+
+.infoEpisodio p
+{
+    font-size: 10px;
+}
+
+.observacaoEstilo
+{
+    margin-bottom: 0px;
+}
+
+#borda
+{
+    border-right: 1px solid rgb(219, 136, 103);
+}

@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px)
+{
+    .ConteudoHeader
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .buscaHeader 
+    {
+        width: 100%;
+        margin: 10px 0px 20px 0px;
+    }
+    
+    .box
+    {
+        width: 100%;
+    }
+
+    /* pagina 2 */ ---------------
+    .blocoSerie
+    {
+        flex-wrap: wrap;
+    }
+
+    .informacaoSerie
+    {width: 100%;}
+
+    .blocoSerie img {
+        width: 100%;
+    }
+
+    .linha
+    {flex-wrap: wrap;}
+
+    .informacaoSerie h1 {
+        margin-bottom: 30px;
+    }
+
+    .gradeTemporadas
+    {
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+
+    .blocoEpisodio {width: 100%; margin-bottom: 20px;}
+
+    #borda
+    {
+        border-right: none;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:1024px)
+{
+    .box
+    {
+        width: 48%;
+    }
+}
+
+
+
